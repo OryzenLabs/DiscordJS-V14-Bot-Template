@@ -1,4 +1,4 @@
-# <samp>DiscordJS-V14-Bot-Template</samp> v2
+# <samp>DiscordJS-V14-Bot-Template</samp>
 
 The simplified Discord bot commands & events handler built with discord.js version 14 and written in JavaScript. This handler can load up to 4 different type of commands; Prefix, Slash, User context and Message context.
 
@@ -10,8 +10,6 @@ The simplified Discord bot commands & events handler built with discord.js versi
 This project also handles components. For now, there are only Buttons and Select menus.
 
 Did you like my project? Click on the star button (⭐️) right above your screen, thank you!
-
-Looking for the old version? [Click here](https://github.com/TFAGaming/DiscordJS-V14-Bot-Template/releases/tag/v1.7.0-last).
 
 ## Commands, events, and components structure
 
@@ -111,38 +109,11 @@ MONGODB_URI = Your mongodb URI string
 6. To start your bot, run `node .` or `npm run start`.
 7. Enjoy. =)
 
-## Hosting (<img src="https://media.discordapp.net/attachments/1111644651036876822/1124045180484472882/discloud_white_horizon-e96efbfa.png?width=960&height=163" width=100>)
-Use [Discloud](https://discloudbot.com/)! A trust-worthy Discord bot hosting service.
-
-1. Login using your Discord/GitHub account, and then don't close the Dashboard tab (because we need it later).
-2. Go to your project on VSCode, create a new file `discloud.config`. This file is a configuration file for Discloud apps servers. The `discloud.config` file content must be like the codeblock below, and remember to change **YOUR_BOT_ID** to your actual bot ID.
-
-```apache
-# Your actual bot ID below
-ID = 1234567890123456789
-TYPE = bot
-MAIN = src/index.js
-RAM = 100
-AUTORESTART = true
-VERSION = latest
-API = tools
-```
-
-3. Open explorer and navigate using the path of your project. Hold the **CTRL** key, and click on `src/`, `package.json`, and `discloud.config`. Now release the key, and right click on the selected files/folders and click on **Convert into .zip file**.
-4. Go back to the Discloud dashboard, click on **Add App**, and then upload the .zip file in the upload box. Make sure to accept the ToS of the service and then click on **Upload**.
-5. Wait for at least 20 seconds (depends on your Internet speed), and then your bot should be on.
-
-> **Warning**
-> Discloud has recently made every Free plan servers into **15 days** hosting only. Use the command `.rw` from their bot in the commands channel (on their Discord server) to reset the timer. Join the server: [Click here!](https://discord.gg/discloud-584490943034425391)
-
-## Contributors
-<img src="https://contrib.rocks/image?repo=TFAGaming/DiscordJS-V14-Bot-Template">
-
 ## Support
 Join our Discord server if you need any help!
 
-<a href="https://discord.gg/E6VFACWu5V">
-  <img src="https://discord.com/api/guilds/918611797194465280/widget.png?style=banner3">
+<a href="https://discord.gg/6xpF6YqVDd">
+  <img src="https://discord.com/api/guilds/871642960188571709/widget.png?style=banner3">
 </a>
 
 ## License
