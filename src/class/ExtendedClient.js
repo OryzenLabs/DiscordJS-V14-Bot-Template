@@ -24,7 +24,7 @@ module.exports = class extends Client {
             partials: [Object.keys(Partials)],
             presence: {
                 activities: [{
-                    name: 'DiscordJS-V14-Bot-Template v2'
+                    name: 'DiscordJS-V14-Bot-Template'
                 }]
             }
         });
